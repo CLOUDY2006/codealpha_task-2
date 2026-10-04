@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How do I track my order?",
+    "variants": ["where is my order", "where is my package", "where is my parcel", "order status", "track my shipment", "has my order shipped", "when will my order arrive"],
+    "answer": "Open My Orders in your account and select the order. You will see live tracking, and we also email a tracking link as soon as your order ships.",
+    "keywords": "track tracking status package parcel shipment whereabouts"
+  },
+  {
+    "question": "What is your return policy?",
+    "variants": ["how do I return an item", "can I return a product", "I want to return my order", "exchange an item", "send back a product"],
+    "answer": "You can return most items within 30 days of delivery. Items must be unused and in their original packaging. Start a return from My Orders and we will email you a prepaid label.",
+    "keywords": "return exchange policy send back unused"
+  },
+  {
+    "question": "How long does a refund take?",
+    "variants": ["when will I get my refund", "where is my refund", "I want my money back", "refund status", "how many days for refund"],
+    "answer": "Refunds are issued within 5 to 7 business days after we receive your returned item. The money goes back to your original payment method.",
+    "keywords": "refund money back reimbursement credit"
+  },
+  {
+    "question": "How long does shipping take?",
+    "variants": ["how many days for delivery", "when will my order be delivered", "delivery time", "how fast is shipping", "express delivery"],
+    "answer": "Standard shipping takes 3 to 5 business days. Express shipping takes 1 to 2 business days. Delivery times are shown at checkout before you pay.",
+    "keywords": "shipping delivery time days arrive dispatch express standard fast"
+  },
+  {
+    "question": "Do you offer free shipping?",
+    "variants": ["is delivery free", "what are the shipping charges", "delivery fee", "minimum order for free shipping"],
+    "answer": "Yes. Orders above 999 rupees ship free with standard delivery. Below that amount a flat fee of 49 rupees applies.",
+    "keywords": "free shipping delivery charge fee cost minimum"
+  },
+  {
+    "question": "Which payment methods do you accept?",
+    "variants": ["how can I pay", "do you accept upi", "can I pay with credit card", "is cash on delivery available", "is cod available", "cod", "payment options"],
+    "answer": "We accept UPI, credit and debit cards, net banking, popular wallets and cash on delivery for orders up to 5000 rupees.",
+    "keywords": "payment pay card upi netbanking wallet cash cod methods"
+  },
+  {
+    "question": "Can I cancel my order?",
+    "variants": ["I want to cancel my order", "how do I cancel an order", "cancel my purchase", "I changed my mind about my order"],
+    "answer": "You can cancel an order from My Orders until it has been shipped. After shipping, please refuse the delivery or start a return once it arrives.",
+    "keywords": "cancel cancellation stop"
+  },
+  {
+    "question": "How do I change my delivery address?",
+    "variants": ["I entered the wrong address", "update my shipping address", "edit address of my order", "send my order to a different address"],
+    "answer": "Go to My Orders and choose Edit Address before the order ships. If it has already shipped, contact support and we will try to redirect the package.",
+    "keywords": "change edit update address location wrong"
+  },
+  {
+    "question": "How do I reset my password?",
+    "variants": ["I forgot my password", "cannot log in", "unable to sign in", "my account is locked", "change my password"],
+    "answer": "On the login page choose Forgot Password, enter your registered email, and follow the reset link we send. The link stays valid for 30 minutes.",
+    "keywords": "reset forgot password login sign in locked access"
+  },
+  {
+    "question": "How do I create an account?",
+    "variants": ["how to sign up", "register a new account", "I want to join", "make a new profile"],
+    "answer": "Click Sign Up at the top right, enter your name, email and a password, then verify your email address. You can also sign up with your Google account.",
+    "keywords": "create register signup account join profile"
+  },
+  {
+    "question": "How can I contact customer support?",
+    "variants": ["I want to talk to a human", "customer care number", "support email", "how do I reach you", "I need help"],
+    "answer": "You can chat with us here, email support@shopease.example, or call 1800-000-000 between 9 AM and 9 PM, Monday to Saturday.",
+    "keywords": "contact support help phone call email agent customer care"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "variants": ["can you deliver to the usa", "do you ship abroad", "international delivery", "do you deliver outside india", "shipping to other countries"],
+    "answer": "Yes, we ship to over 40 countries. International delivery takes 7 to 14 business days and customs duties are paid by the buyer.",
+    "keywords": "international abroad overseas worldwide country usa uk america dubai canada global"
+  },
+  {
+    "question": "My item arrived damaged. What should I do?",
+    "variants": ["I received a broken product", "wrong item delivered", "my product is defective", "item is missing from my order", "the package was damaged"],
+    "answer": "We are sorry about that. Report it within 7 days from My Orders with a photo of the item and the packaging, and we will send a replacement or a full refund.",
+    "keywords": "damaged broken defective faulty wrong missing replacement"
+  },
+  {
+    "question": "How do I use a discount code?",
+    "variants": ["where do I enter a coupon", "apply a promo code", "my voucher is not working", "are there any offers"],
+    "answer": "Enter the code in the Promo Code box on the cart page and click Apply. Only one code can be used per order, and some items are excluded.",
+    "keywords": "discount coupon promo code offer voucher deal sale apply"
+  },
+  {
+    "question": "Is my payment information secure?",
+    "variants": ["is it safe to pay on your site", "do you store my card details", "is my data protected", "is online payment safe", "is my card safe", "is my payment safe"],
+    "answer": "Yes. All payments are encrypted with SSL and processed by certified payment partners. We never store your full card details.",
+    "keywords": "secure safe security privacy encryption data trust"
+  }
+]

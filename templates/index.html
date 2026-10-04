@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopEase FAQ Assistant</title>
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("shopease_theme");
+      if (savedTheme) document.documentElement.setAttribute("data-theme", savedTheme);
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <main class="chat">
+    <header class="chat-head">
+      <div class="avatar">S<span class="online"></span></div>
+      <div class="head-text">
+        <h1>ShopEase Assistant</h1>
+        <p>Online and ready to help</p>
+      </div>
+      <div class="head-actions">
+        <button id="themeBtn" class="head-btn" type="button">Dark mode</button>
+        <button id="newChat" class="head-btn" type="button">New chat</button>
+      </div>
+    </header>
+
+    <div id="messages" class="messages" aria-live="polite">
+      <section id="welcome" class="welcome">
+        <h2>How can we help you today?</h2>
+        <p>Pick a question below or type your own. I answer by matching your words to our FAQs.</p>
+        <div class="starter-grid" id="starters">
+          {% for q in starters %}
+          <button class="starter" type="button">{{ q }}</button>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+
+    <div class="composer">
+      <input id="input" type="text" maxlength="300" placeholder="Ask about orders, returns, payments..." autocomplete="off" aria-label="Your question">
+      <button id="send" type="button" aria-label="Send">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+      </button>
+    </div>
+  </main>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
